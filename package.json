@@ -1,0 +1,23 @@
+{
+  "name": "mini-angular",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "public": "vite build --base=/mini-angular",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@angular/compiler": "^17.0.0",
+    "@angular/platform-browser": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "zone.js": "^0.14.2"
+  },
+  "devDependencies": {
+    "@nitedani/vite-plugin-angular": "*",
+    "typescript": "5.2.2",
+    "vite": "^5.0.0"
+  }
+}
